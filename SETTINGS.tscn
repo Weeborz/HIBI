@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3kyfpaqjna7o"]
+
+[ext_resource type="Script" uid="uid://cqs65ymtj62yu" path="res://settings.gd" id="1_02yms"]
+[ext_resource type="Texture2D" uid="uid://813a3n26wafa" path="res://ASSETS/BUTTONS/SOUND SETTINGS/Settings.png" id="2_qydi0"]
+[ext_resource type="Texture2D" uid="uid://c181xmara1xkx" path="res://ASSETS/BUTTONS/EXIT SETTINGS BUTTON.png" id="3_k01o4"]
+[ext_resource type="FontFile" uid="uid://rlvigb2lu0t4" path="res://ASSETS/collingar-font/Collingardemo-eZ3Op.otf" id="4_k01o4"]
+
+[node name="Node2D2" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_02yms")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -41.0
+offset_top = -81.0
+offset_right = 1640.0
+offset_bottom = 1078.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.56, 0.56)
+texture = ExtResource("2_qydi0")
+
+[node name="TextureButton" type="TextureButton" parent="CanvasLayer"]
+offset_left = 799.0
+offset_top = 736.0
+offset_right = 2847.0
+offset_bottom = 2211.0
+scale = Vector2(0.17, 0.17)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_k01o4")
+
+[node name="BGM2" type="Label" parent="CanvasLayer"]
+offset_left = 826.0
+offset_top = 351.0
+offset_right = 1016.0
+offset_bottom = 414.0
+scale = Vector2(1.455, 1.455)
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_k01o4")
+theme_override_font_sizes/font_size = 45
+text = "SOUND"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BGM" type="HSlider" parent="CanvasLayer"]
+offset_left = 557.0
+offset_top = 474.0
+offset_right = 752.0
+offset_bottom = 490.0
+scale = Vector2(4.035, 4.035)
+mouse_default_cursor_shape = 2
+value = 100.0
+
+[connection signal="pressed" from="CanvasLayer/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="value_changed" from="CanvasLayer/BGM" to="." method="_on_bgm_value_changed"]

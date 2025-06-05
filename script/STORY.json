@@ -1,0 +1,2250 @@
+[
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I was born in a house with a garden no one could fix.", 
+		"background": "blackscreen",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "My mother tried and spent hours digging, watering, trimming dead stems, ...but nothing ever grew.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Even the roses withered after blooming.", 
+		"background": "garden",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "Why won’t the flowers stay?", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": "Father", 
+		"expression": "neutral", 
+		"text": "...", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "Some things aren’t meant to grow here.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Back then, I didn’t know what sadness looked like in adults. I just thought everyone was tired.", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "But the garden was a warning.", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "A warning of noise and silence.", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "It wasn’t just the plants that faded. Something else was wilting inside that house, too.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Everything that touched that house died slowly. Not a single resident escaped their fates of being silenced.", 
+		"background": "garden",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "The garden is the start of life, yet it can also be the resting place of the dead. A flower is wilting.", 
+		"background": "gardenzoom",
+		"bgm": "lighthearted"
+	},
+	
+	
+	{"choices":
+		[
+			{"text": "Water the flower anyway", "goto": "Water the flower anyway"},
+			{"text": "Crush the flower under her shoe", "goto": "Crush the flower under her shoe"}
+		]
+	},
+	
+	{"anchor": "Water the flower anyway"},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "Maybe it just needs a second chance.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "Even if it's wilting... there's still life left in it.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "After all, this garden is very beautiful.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "Maybe it can be beautiful again.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "The soil drank greedily. For a moment, I thought I saw the petals lift just slightly.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{"goto": "end"},
+	
+	{"anchor": "Crush the flower under her shoe"},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "They always die anyway.", 
+		"background": "gardenzoom",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "No matter how much you care for them...", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "They just wilt, rot, and drag everything else down with them.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "It’s better this way. Mercy through certainty.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "The crunch was soft. The silence afterward was louder.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{"goto": "end"},
+	
+	{"anchor": "end"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "A Lady came to the mansion.", 
+		"background": "mansion",
+		"bgm": "Rosatheme"
+	},
+	
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "She wore red lipstick that left stains on glasses and a perfume that lingered too long after she left the room.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "She laughed at things no one else found funny and smiled too widely, like someone who wanted you to trust her more than she deserved.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "She was introduced as mother’s “friend.”", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "At first, she started staying late.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "I watched her pour wine for Father. He smiled back. Mother looked away.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "And then she started staying overnight.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Then every day.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	
+
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "Is Aunty Rosa gonna live with us now?", 
+		"background": "gardenzoom",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "She’s just helping out for a while. That’s all.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "But mother wasn't certain. She was never certain when she was near Rosa.", 
+		"background": "gardenzoom",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Sometimes I caught Rosa staring out at the garden. Like she was waiting for it to bloom-or for it to bury something.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "...", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "After Rosa's frequent visits mother smiled less. She moved quietly, as though trying not to draw attention to herself.", 
+		"background": "nightsky",
+		"bgm": "RosaAbuse"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "At the table, she barely ate, barely spoke.", 
+		"background": "kitchen",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "Father has also changed.", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "His anger softened not into kindness, but into obedience.", 
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "He stood straighter around Rosa. He drank less, but stared longer. His tone was also careful.", 
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "It was like everyone had become actors in someone else’s play. No one knew their lines anymore.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I remembered hearing mother once whispering to the neighbor through the fence.", 
+		"background": "nightsky",
+		"bgm": "heavyhearted"
+	},
+	
+	
+	{
+		"speaker": "Mother", 
+		"expression": "VAngry", 
+		"text": "He’s always looking at younger girls. Barely adults, some of them. It’s like... he wants someone who’ll never talk back.", 
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I didn’t understand the words back then.", 
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "But later, when Rosa moved in, it all started to make sense.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Mother was upset. And Rosa, she was speaking with one of the attendants.", 
+		"background": "mansion",
+		"bgm": " "
+	},
+	{"choices":
+		[
+			{"text": "Stay close to Mom", "goto": "Stay close to Mom"},
+			{"text": "Try to please Rosa", "goto": "Try to please Rosa"}
+		]
+	},
+	
+	{"anchor": "Stay close to Mom"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "I’ll stay near Mom. She’s not okay.", 
+		"background": "gardenzoom",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "Alice...", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "You looked like you needed someone.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "They always talked about me. Like I couldn't hear them.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "They shouldn't. It’s... wrong.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "Thank you dear.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "She seems calmer. I’m glad I stayed.", 
+		"background": "gardenzoom",
+		"bgm": " "
+	},
+	{"goto": "end1"},
+	
+	{"anchor": "Try to please Rosa"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "If I try to please her… maybe she’ll be nice.", 
+		"background": "gardenzoom",
+		"bgm": "Rosatheme"
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "...", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "Lady- ", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa", 
+		"expression": "angry", 
+		"text": "Don’t interrupt when adults are speaking, dear.", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa", 
+		"expression": "angry", 
+		"text": "Only speak when spoken to.", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa", 
+		"expression": "agitated", 
+		"text": "And never, ever talk back.", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "I just called out. Just a word. But she looks at me like I broke something.", 
+		"background": "livingroom",
+		"bgm": " "
+	},
+	{"goto": "end1"},
+	
+	
+	{"anchor": "end1"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I used to think that grown-ups knew what was right. That silence meant peace.", 
+		"background": "nightsky",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "After that day, things got worse for my mother. Was this all planned, I don't even know. No one will know. Because this garden holds the noise of the residents.", 
+		"background": "nightsky",
+		"bgm": " "
+	},
+	
+	
+	{
+		"speaker": "Rosa", 
+		"expression": "neutral", 
+		"text": "...", 
+		"background": "hallway",
+		"bgm": "RosaAbuse"
+	},
+	{
+		"speaker": "Father", 
+		"expression": "angryNormal", 
+		"text": "...", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "crying", 
+		"text": "...", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "What happened to your face?", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "crying", 
+		"text": "...", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa", 
+		"expression": "devastated", 
+		"text": "Oh, sweetheart... your mommy just tripped. She’s clumsy like that.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa", 
+		"expression": "neutral", 
+		"text": "But don’t worry! adults fix these things. You don’t need to get involved. Just be a good girl, alright?", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "...", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "Her eyes didn’t match her words. They looked like glass left out in the rain— about to crack.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	
+	
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Suffering was what awaited those of us who lived under the same roof as her. Not a single day passed where we didn't see her.",
+		"background": "nightsky",
+		"bgm": "heavyhearted"
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "*Inaudible Noises*",
+		"background": "aliceroom",
+		"bgm": " "
+	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "...",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "We don't belong here.",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "She's always here...",
+		"background": "kitchen",
+		"bgm": "Rosatheme"
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "Sit up straight. Slouching makes you look weak.",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "And chew with your mouth closed this time. Children who chew too loudly grow up to be pigs.",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Mother",
+		"expression": "neutral",
+		"text": "...",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...Can I have the crayons after dinner?",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "No. You left them lying around last time. Don’t ask again.",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "I’ll be careful-",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "agitated",
+		"text": "I said no.",
+		"background": "kitchen",
+		"bgm": "RosaAbuse"
+  	},
+  	{
+		"speaker": "Mother",
+		"expression": "crying",
+		"text": "!!!",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Mother",
+		"expression": "crying",
+		"text": "...",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Mother",
+		"expression": "sad",
+		"text": "Please excuse me.",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "sad",
+		"text": "Your mother was always soft. It’s why things fell apart before I came. You don’t want to end up like her, do you?",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "...",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "She wants me to be silent. Like the garden. Like the house… But something in me is starting to grow again.",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "My drawings can be seen on the wall. The silent pictures of monsters with long arms and mouths full of thorns, each one of them representing the residents of this place.",
+		"background": "aliceroom",
+		"bgm": "lighthearted"
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Each stroke was a scream I couldn't voice. Each figure, a memory they forced me to forget.",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "smile",
+		"text": "You see me, right? You didn’t forget me?",
+		"background": "aliceroom",
+		"bgm": " "
+ 	},
+ 	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "Sometimes I think they watch me through the cracks. Like they’re waiting for me to stop.",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "If I keep drawing, they’ll know I’m still here. But... if I tear them down, what’s left of me?",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+	{"choices":
+		[
+			{"text": "Keep drawing", "goto": "Keep drawing"},
+			{"text": "Tear the drawing down", "goto": "Tear the drawing down"}
+		]
+	},
+	
+	{"anchor": "Keep drawing"},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "If no one will hear me, then I’ll make sure they see me.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I press the charcoal harder, the lines darker—deeper. The figure on the wall grows more vivid.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{"goto": "end2"},
+	
+	{"anchor": "Tear the drawing down"},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "I shouldn’t have done that. I might make things worse.", 
+		"background": "aliceroom",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "The torn paper flutters to the floor like shed skin. The wall behind it feels colder.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{"goto": "end2"},
+	
+	{"anchor": "end2"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "Is someone out in the hallway?", 
+		"background": "aliceroom",
+		"bgm": "silent"
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "The voices are muffled, like old recordings buried under dust.",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "You’re too soft on her.",
+		"background": "aliceroom",
+		"bgm": "heavyhearted"
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "It's father?",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "angryNormal",
+		"text": "She’s spoiled. Doesn’t listen.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "angryNormal",
+		"text": "She’s just like her mother. Always crying, always pretending to be the victim.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "It's too loud.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "I tried to step away-but my foot caught the edge of the table.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "I accidentally hit the vase.",
+		"background": "hallway",
+		"bgm": "silent"
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "agitated",
+		"text": "Goddammit, Alice! Can’t you do anything right!?",
+		"background": "hallway",
+		"bgm": "heavyhearted"
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "agitated",
+		"text": "Clean it up. Now. Before I lose my patience.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "My hands trembled as I reached for the broken pieces. Sharp edges. Cold floor.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Why does it always feel like I'm the one in pieces?",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "...",
+		"background": "hallway",
+		"bgm": " "
+  	},
+	{"choices":
+		[
+			{"text": "Remember who he used to be", "goto": "Remember who he used to be"},
+			{"text": "See him as a monster", "goto": "See him as a monster"}
+		]
+	},
+	
+	{"anchor": "Remember who he used to be"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "You used to hold my hand when I was scared... where did you go?", 
+		"background": "hallway",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "For a moment, the anger fades. But only for a moment.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{"goto": "end3"},
+	
+	{"anchor": "See him as a monster"},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "You’re not my dad anymore. You’re just noise.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "He steps forward, but I don’t flinch. Not this time.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{"goto": "end3"},
+	
+	{"anchor": "end3"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Shouting echoed through the house like thunder. I pressed my hands over my ears and went back to my room.", 
+		"background": "hallway",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I thought it would stop-but the voices followed me like shadows.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Mother", 
+		"expression": "neutral", 
+		"text": "What's happening here?", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Father", 
+		"expression": "agitated", 
+		"text": "You think I don’t know what’s going on? You and her, whispering behind my back like I’m some fool!", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Father", 
+		"expression": "agitated", 
+		"text": "This is my house!", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "He's at it again. When will the noise stop?", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Father", 
+		"expression": "agitated", 
+		"text": "ENOUGH! I'VE HAD ENOUGH OF YOU!", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "A silence thicker than rage filled the air.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "Just what... went wrong?", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "It's over", 
+		"background": "aliceroom",
+		"bgm": "silent"
+	},
+	
+	{
+		"speaker": "Mother", 
+		"expression": "sad", 
+		"text": "...I've also had enough.", 
+		"background": "hallway",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "Mom... are you also leaving?", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I heared my mother leaving, soft sounds of crying could be heared when she left. I stayed in my room for several hours.", 
+		"background": "aliceroom",
+		"bgm": "heavyhearted"
+	},
+	
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "I should check the bathroom... just to clear my head.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "Running water?", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "neutral", 
+		"text": "Mom?", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": " ",
+		"text": "...", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "Are you okay?", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": " ",
+		"text": "...", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none",
+		"text": "The door is locked. Steam seeps from beneath it. But no footsteps. No reply.", 
+		"background": "bathroomdoorhallway",
+		"bgm": "silent"
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "Why aren't you answering...?", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": "Mother", 
+		"expression": " ",
+		"text": "...", 
+		"background": "keyholebathroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "!!!", 
+		"background": "keyholebathroom",
+		"bgm": " "
+	},
+	{
+		"speaker": "Mother", 
+		"expression": " ",
+		"text": "...", 
+		"background": "keyholebathroom",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Through the keyhole, a pale hand. Water overflows. A shape unmoving.", 
+		"background": "keyholebathroom",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "shocked", 
+		"text": "No... no no no...", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "...Words couldn't describe the horrors of that day.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "shocked", 
+		"text": "It's over, it's all over. Noise will take over.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "shocked", 
+		"text": "What can I do now?", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	
+	{"choices":
+		[
+			{"text": "Hold on to her memory", "goto": "Hold on to her memory"},
+			{"text": "Erase it all", "goto": "Erase it all"}
+		]
+	},
+	
+	{"anchor": "Hold on to her memory"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "I’ll remember her. I won’t let her go.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Her voice still echoes when I close my eyes. A lullaby caught in the walls.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{"goto": "end4"},
+	
+	{"anchor": "Erase it all"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "If I forget it, maybe it’ll stop hurting.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "But the silence won't let me. It remembers everything I try to erase.", 
+		"background": "bathroomdoorhallway",
+		"bgm": " "
+	},
+	{"goto": "end4"},
+	
+	{"anchor": "end4"},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Where trust is broken and silence begins, the suffering seemed endless.",
+		"background": "nightsky",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "...",
+		"background": "livingroom",
+		"bgm": "lighthearted"
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "......",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": ".........",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "Huh?",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Something cold against my foot. A small glint on the carpet.",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "A ring?",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "Was it mom's?",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Whatever, I'll keep it for now.",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Sound of footsteps approaching from the hallway-fast, angry.",
+		"background": "livingroom",
+		"bgm": "RosaAbuse"
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "agitated",
+		"text": "Where is it!?",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "!",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "agitated",
+		"text": "You!",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "W-what?",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "agitated",
+		"text": "The ring. The one your father gave me. Don’t play dumb, you little thief!",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "I-I didn’t take it. I found it and-",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "Your father isn’t going to believe a word you say, so you might as well give up!",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "How annoying.",
+		"background": "livingroom",
+		"bgm": "silent"
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "How noisy.",
+		"background": "livingroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Footsteps echo in hallway.",
+		"background": "hallway",
+		"bgm": "heavyhearted"
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "DEAR! THIS CHILD STOLE THE RING YOU GAVE ME!",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "angryNormal",
+		"text": "What!?",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "How noisy.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "sad",
+		"text": "I found it gone after cleaning. She admitted she had it.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Father storms into the hall, eyes burning with rage.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "How noisy.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Father",
+		"expression": "agitated",
+		"text": "YOU BRAT!! AS EXPECTED OF A CHILD BORN FROM THAT TRASH!",
+		"background": "hallway",
+		"bgm": "silent"
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "...",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "I turned and ran.",
+		"background": "hallway",
+		"bgm": " "
+  	},
+ 	{
+		"speaker": "Father",
+		"expression": "agitated",
+		"text": "COME BACK HERE!",
+		"background": "hallway",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "...",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "...",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "So noisy.",
+		"background": "aliceroom",
+		"bgm": " "
+  	},
+	{"choices":
+		[
+			{"text": "Draw the truth", "goto": "Draw the truth"},
+			{"text": "Tear her drawings and hide", "goto": "Tear her drawings and hide"}
+		]
+	},
+	
+	{"anchor": "Draw the truth"},
+	{
+		"speaker": "Alice", 
+		"expression": "sad", 
+		"text": "If I can’t say it... I’ll show it.", 
+		"background": "aliceroom",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I reach for my sketchbook and pull open a box of crayons. Hands shaking slightly, I began to draw.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{"goto": "end5"},
+	
+	{"anchor": "Tear her drawings and hide"},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "No one believes me. They never will.", 
+		"background": "aliceroom",
+		"bgm": "heavyhearted"
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I look at my drawings, eyes full of pain. Then I began tearing them slowly—one by one.", 
+		"background": "aliceroom",
+		"bgm": " "
+	},
+	{"goto": "end5"},
+	
+	{"anchor": "end5"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I hide the scraps beneath my bed, then turn away to face the wall.", 
+		"background": "aliceroom",
+		"bgm": "heavyhearted"
+	},
+	
+	
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "The attic was dark. Damp.", 
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "Dust and insulation drifted like snow in the air.", 
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A place I was most familiar with…",
+		"background": "nightsky",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A place where I would be staying for the rest of my days.",
+		"background": "nightsky",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Rosa",
+		"expression": "angry",
+		"text": "No more crying at the table. No more sulking. If you want to act like a problem, you’ll be treated like one.",
+		"background": "kitchen",
+		"bgm": "silent"
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "kitchen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A heavy door slams shut. A bolt slides into place.",
+		"background": "blackscreen",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Don’t open the door.",
+		"background": "attic",
+		"bgm": "heavyhearted"
+  	},
+ 	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Don’t trust her.",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "I’m not bad. I’m not bad. I’m not bad.",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "Pfft- HAHAHAHAHA",
+		"background": "attic",
+		"bgm": "silent"
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A soft wind brushes my cheek-though there is no window.",
+		"background": "nightsky",
+		"bgm": " "
+	},
+ 	{
+		"speaker": "?",
+		"expression": "none1",
+		"text": "Alice... don’t fall asleep... she’s in your dreams...",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "Are you scared, too?",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "It’s okay. I’ll protect you.",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "The attic is still. Shadows stretch across splintered wood. I sit with my knees pulled to my chest.",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "?",
+		"expression": "none1",
+		"text": "You’re the problem…",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "?",
+		"expression": "none1",
+		"text": "She doesn’t want you to remember…",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "?",
+		"expression": "none1",
+		"text": "You are also a noise...",
+		"background": "attic",
+		"bgm": " "
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "That voice again... but it’s closer now.",
+		"background": "attic",
+		"bgm": "heavyhearted"
+  	},
+  	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+  	},
+	
+	{"choices":
+		[
+			{"text": "Embrace the illusion", "goto": "Embrace the illusion"},
+			{"text": "Confront the whispers", "goto": "Confront the whispers"}
+		]
+	},
+	
+	{"anchor": "Embrace the illusion"},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "She’s still with me. She didn’t leave.", 
+		"background": "attic",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "If I close my eyes… I can almost hear her humming.", 
+		"background": "attic",
+		"bgm": " "
+	},
+	{"goto": "end6"},
+	
+	{"anchor": "Confront the whispers"},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "Tell me what I’m not supposed to know.", 
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "I sat there with a pained and hopeless expression.", 
+		"background": "attic",
+		"bgm": " "
+	},
+	{"goto": "end6"},
+	
+	{"anchor": "end6"},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Where silence becomes permanent, this young lady left the world behind to reclaim her noise.",
+		"background": "blackscreen",
+		"bgm": "lighthearted"
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "The attic flickers with a surreal dimness. Reality feels thin.",
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Some...one...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A voice bleeds through from nowhere - muffled, warped.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "Aft... Hence the reason we...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A barely tangible voice can be heard. Whispering layered beneath.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "Help me... please...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "!",
+		"background": "attic",
+		"bgm": "silent"
+	},
+	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Help... me.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "This is the final chapter of my story.",
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Rosa enters with a tea tray, her face cheerful.",
+		"background": "attic",
+		"bgm": "Rosatheme"
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "Oh dear, I brought tea, little ghost.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "She sets it down on a dusty table near me, as I sit curled up.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "You’ve been so quiet. That’s good. Quiet girls don’t get punished.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "Why won’t anyone believe me?",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "sad",
+		"text": "Because you were born broken. Like your mother.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "My fists tighten.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "angry",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Silence lingers. Rosa walks slowly around Alice.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "Do you know how easy it is to make people forget someone like you?",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "I glare. Rosa turns her head toward the shadows.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "Heinz, would you be a dear and eliminate the one in front of me?",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A tall figure- Heinz- emerges from the dark.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "sad",
+		"text": "...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "neutral",
+		"text": "... you...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "You found me...",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "smile",
+		"text": "Don’t be scared",
+		"background": "attic",
+		"bgm": "silent"
+	},
+	{
+		"speaker": "Alice",
+		"expression": "shocked",
+		"text": "Why?",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "sad",
+		"text": "You weren’t supposed to last this long.",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Then why did I? Why can’t I just be at peace? Why won’t the noises leave?! What did I do to deserve this?!",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Alice grabs her head. The world trembles slightly.",
+		"background": "attic",
+		"bgm": "RosaAbuse"
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "Why? Why? Why? Why? Why? Why!? Why!? WHY!?",
+		"background": "attic",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "That damn noise won't stop. WHY?!?",
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind",
+		"expression": " ",
+		"text": "WHY!? WON'T IT STOP!",
+		"background": "hallway",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "The air becomes still. The floor creaks",
+		"background": "stairs",
+		"bgm": "silent"
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "...It is over.",
+		"background": "stairs",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "No more crying. No more noise.",
+		"background": "attic",
+		"bgm": "Rosatheme"
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Silence approaches like the night, still for but a moment.",
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "Until it is taken over by noise, the constant of this young lady's world.",
+		"background": "nightsky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "I sat still. Heinz stands behind me.",
+		"background": "stairs",
+		"bgm": "acceptance"
+	},
+	{
+		"speaker": "Alice",
+		"expression": "sad",
+		"text": "...",
+		"background": "stairs",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "neutral",
+		"text": "...",
+		"background": "stairs",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "angry",
+		"text": "Are you not going to keep struggling?",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "smile",
+		"text": "Have gone mute after all you've been through?",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "neutral",
+		"text": "...",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "N...",
+		"background": "basement",
+		"bgm": "silent"
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "neutral",
+		"text": "Huh?",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "Noise.",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice",
+		"expression": "happy",
+		"text": "I can only hear the most beautiful of noises.",
+		"background": "basement",
+		"bgm": " "
+	},
+	{
+		"speaker": "Heinz",
+		"expression": "aback",
+		"text": "...",
+		"background": "basement",
+		"bgm": " "
+	},
+	
+	{"choices":
+		[
+			{"text": "Justice", "goto": "Justice"},
+			{"text": "Revenge", "goto": "Revenge"}
+		]
+	},
+	
+	{"anchor": "Justice"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "A gentle, dark void surrounds me. Me eyes burn bright with calm fury.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "angry", 
+		"text": "They won’t forget me. I’ll show them what they let happen.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{"goto": "end7"},
+	
+	{"anchor": "Revenge"},
+	{
+		"speaker": " ", 
+		"expression": "none", 
+		"text": "My mind is filled with static. my voice is a scream, calm and sharp.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice Mind", 
+		"expression": " ", 
+		"text": "They let me die. Let them all burn.", 
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{"goto": "end7"},
+	
+	{"anchor": "end7"},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A distant, echoing wail lingers in the air. Citizens are talking in hushed voices.",
+		"background": "sky",
+		"bgm": "ending"
+	},
+	{
+		"speaker": "Townsperson",
+		"expression": " ",
+		"text": "Did you hear that again last night? Like someone crying under the floorboards?",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": "Shopkeeper",
+		"expression": " ",
+		"text": "Every night since that place burned down...",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A noble nods to Rosa, who sips tea by the fountain.",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": "Noble",
+		"expression": " ",
+		"text": "Haven’t seen that little girl in a while. She alright?",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "She’s fine. Just needed... structure. Therapy. You know how some children are.",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa",
+		"expression": "neutral",
+		"text": "Best thing for everyone.",
+		"background": "town",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A brief flicker of darkness. Her calm expression fractures.",
+		"background": "blackscreen",
+		"bgm": "silent"
+	},
+	{
+		"speaker": "Rosa Mind",
+		"expression": " ",
+		"text": "She should be gone. She should be gone...",
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": "Rosa Mind",
+		"expression": " ",
+		"text": "No one will find what I buried.",
+		"background": "blackscreen",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "A new story opens for others. The beginning of theirs is my end. I feel no resentment for the start of their story, their noise. but the end of one noise... is something that has gathered all my resentment.",
+		"background": "sky",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"text": "A man in a trench coat looks over the town, arms crossed.",
+		"background": "hilltop",
+		"bgm": "ending"
+	},
+	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "Edelweiss...",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "???",
+		"expression": "none2",
+		"text": "It seems this case is much more difficult to solve than I thought it would be.",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": " ",
+		"expression": "none",
+		"text": "The man’s train of thought was interrupted by a KRIMINALPOLIZEI officer calling his name",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Kriminalpolizei",
+		"expression": "none3",
+		"text": "Clarence!",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence",
+		"expression": "neutral",
+		"text": "Hm?",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Kriminalpolizei",
+		"expression": "none3",
+		"text": "Don't forget what you came here for. Quit running around the place!",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence",
+		"expression": "angry",
+		"text": "Hmph, you Kriminalpolizei can't even do your jobs properly.",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence",
+		"expression": "smile",
+		"text": "Had to reach out even to a criminal to solve your cases",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Kriminalpolizei",
+		"expression": "none3",
+		"text": "Tsk.",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence",
+		"expression": "neutral",
+		"text": "Alice Briar Edelweiss, her case that even the most competent investigator can't solve.",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence",
+		"expression": "smile",
+		"text": "How very interesting.",
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence", 
+		"expression": "neutral", 
+		"text": "Let's go.", 
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Kriminalpolizei", 
+		"expression": "none3", 
+		"text": "Where do you want to go now?", 
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Clarence", 
+		"expression": "smile", 
+		"text": "The Datura Alyssum.", 
+		"background": "hilltop",
+		"bgm": " "
+	},
+	{
+		"speaker": "Alice", 
+		"expression": "happy", 
+		"text": "Rosa, my dear Rosa, Your noise doesn’t belong in this beautiful garden.", 
+		"background": "blackscreen",
+		"bgm": " "
+	}
+	
+]

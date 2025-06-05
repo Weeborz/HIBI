@@ -1,0 +1,65 @@
+[gd_scene load_steps=7 format=3 uid="uid://bivlggx0e6p24"]
+
+[ext_resource type="Script" uid="uid://cso0b4qo53h5u" path="res://save_files_(load).gd" id="1_jwnbg"]
+[ext_resource type="Texture2D" uid="uid://cp1yelyp66ydi" path="res://ASSETS/BUTTONS/SAVE FILES/Bg screen.png" id="2_y5dnv"]
+[ext_resource type="Texture2D" uid="uid://b4bsw4u80bh4g" path="res://ASSETS/BUTTONS/Load (done).png" id="3_256pw"]
+[ext_resource type="Texture2D" uid="uid://ddoefpg0jg8rd" path="res://ASSETS/BUTTONS/SAVE FILES/Exit.png" id="3_grohq"]
+[ext_resource type="Script" uid="uid://cl1ioxpdvw615" path="res://saver_loader.gd" id="5_5nb4o"]
+[ext_resource type="Texture2D" uid="uid://ug0haa4yqe2g" path="res://ASSETS/BUTTONS/SAVE SETTINGS/SAVEBAR1.png" id="5_256pw"]
+
+[node name="UIRoot" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_jwnbg")
+
+[node name="BgScreen" type="Sprite2D" parent="."]
+position = Vector2(958.65, 624)
+scale = Vector2(0.936182, 0.917534)
+texture = ExtResource("2_y5dnv")
+
+[node name="Load" type="TextureButton" parent="."]
+offset_left = 747.049
+offset_top = 771.008
+offset_right = 2795.05
+offset_bottom = 2246.01
+scale = Vector2(0.215, 0.215)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_256pw")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 1707.63
+offset_top = 14.4785
+offset_right = 3755.63
+offset_bottom = 1489.48
+scale = Vector2(0.115, 0.115)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_grohq")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+clip_contents = true
+layout_mode = 0
+offset_left = 143.0
+offset_top = 282.0
+offset_right = 1777.0
+offset_bottom = 839.0
+
+[node name="SAVE1" type="TextureButton" parent="VBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("5_256pw")
+
+[node name="SAVE2" type="TextureButton" parent="VBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("5_256pw")
+
+[node name="SAVE3" type="TextureButton" parent="VBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("5_256pw")
+
+[node name="Utility" type="Node" parent="."]
+
+[node name="SaverLoader" type="Node" parent="Utility"]
+script = ExtResource("5_5nb4o")
+
+[connection signal="pressed" from="Load" to="Utility/SaverLoader" method="_on_load_pressed"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

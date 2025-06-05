@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3 uid="uid://bvk86aleyqoeq"]
+
+[ext_resource type="Script" uid="uid://dp7wogmmukvw2" path="res://character.gd" id="1_pjt0s"]
+[ext_resource type="Texture2D" uid="uid://bsmaj7mmb3aud" path="res://ASSETS/CHARACTERS/ALICE/Final/Neutral.png" id="2_yxww1"]
+[ext_resource type="Texture2D" uid="uid://b5lqux64vy7wv" path="res://ASSETS/CHARACTERS/MOTHER/Final/Angry.png" id="3_yxww1"]
+[ext_resource type="Texture2D" uid="uid://dgt3gkexaho6v" path="res://ASSETS/CHARACTERS/ROSA/Final/Agitated.png" id="4_wdpcj"]
+[ext_resource type="Texture2D" uid="uid://prp0mvhhm13a" path="res://ASSETS/CHARACTERS/HEINZ (Ketchup)/Final/aback.png" id="5_qi5as"]
+[ext_resource type="Texture2D" uid="uid://76qxgb6jqud8" path="res://ASSETS/CHARACTERS/FATHER/Final/AngryAgitated.png" id="6_jb3kq"]
+[ext_resource type="Texture2D" uid="uid://cwcyn0ep1hgh5" path="res://ASSETS/CHARACTERS/CLARENCE/Final/Happy.png" id="7_c1b4b"]
+
+[node name="Character" type="Node2D"]
+script = ExtResource("1_pjt0s")
+
+[node name="Alice" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("2_yxww1")
+
+[node name="Mother" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("3_yxww1")
+
+[node name="Rosa" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("4_wdpcj")
+
+[node name="Heinz" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("5_qi5as")
+
+[node name="Father" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("6_jb3kq")
+
+[node name="Clarence" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("7_c1b4b")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7twmnxrijp00"]
+
+[ext_resource type="Theme" uid="uid://127x51vxrs1c" path="res://dialogue theme/DIALOGUE.tres" id="1_x0xis"]
+
+[node name="Button" type="Button"]
+size_flags_stretch_ratio = 0.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("1_x0xis")
+text = "FIRST CHOICE"

@@ -1,0 +1,82 @@
+[gd_scene load_steps=7 format=3 uid="uid://bc3oq02qjkq1l"]
+
+[ext_resource type="Script" uid="uid://cskg2xck37wih" path="res://script/settings_in_game.gd" id="1_mmym4"]
+[ext_resource type="Texture2D" uid="uid://813a3n26wafa" path="res://ASSETS/BUTTONS/SOUND SETTINGS/Settings.png" id="2_s3sml"]
+[ext_resource type="FontFile" uid="uid://rlvigb2lu0t4" path="res://ASSETS/collingar-font/Collingardemo-eZ3Op.otf" id="3_qa7eh"]
+[ext_resource type="Texture2D" uid="uid://chniyliygq50n" path="res://ASSETS/BUTTONS/EXIT SETTINGS BUTTON (done).png" id="4_m2v5c"]
+[ext_resource type="Texture2D" uid="uid://bwk13y76sw0xx" path="res://ASSETS/BUTTONS/Exit game button.png" id="5_r4q20"]
+[ext_resource type="Texture2D" uid="uid://b4bsw4u80bh4g" path="res://ASSETS/BUTTONS/Load (done).png" id="6_tccfk"]
+
+[node name="Node2D" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_mmym4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Settings" type="Sprite2D" parent="."]
+position = Vector2(959, 535.5)
+scale = Vector2(0.945, 0.845424)
+texture = ExtResource("2_s3sml")
+
+[node name="BGM2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 826.0
+offset_top = 271.0
+offset_right = 1016.0
+offset_bottom = 334.0
+scale = Vector2(1.455, 1.455)
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("3_qa7eh")
+theme_override_font_sizes/font_size = 45
+text = "SOUND"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BGM" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 557.0
+offset_top = 394.0
+offset_right = 752.0
+offset_bottom = 410.0
+scale = Vector2(4.035, 4.035)
+mouse_default_cursor_shape = 2
+value = 100.0
+
+[node name="exit" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 785.0
+offset_top = 637.0
+offset_right = 2833.0
+offset_bottom = 2112.0
+scale = Vector2(0.18, 0.18)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_m2v5c")
+
+[node name="exitGame" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 776.0
+offset_top = 836.0
+offset_right = 2824.0
+offset_bottom = 2311.0
+scale = Vector2(0.18, 0.18)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("5_r4q20")
+
+[node name="Load" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 786.0
+offset_top = 428.0
+offset_right = 2834.0
+offset_bottom = 1903.0
+scale = Vector2(0.18, 0.18)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("6_tccfk")
+
+[connection signal="value_changed" from="BGM" to="." method="_on_bgm_value_changed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="exitGame" to="." method="_on_exit_game_pressed"]
+[connection signal="pressed" from="Load" to="." method="_on_load_pressed"]

@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://bwvvkf8aak2jo"]
+
+[ext_resource type="Texture2D" uid="uid://cax35rmy5lege" path="res://ASSETS/BUTTONS/Load.png" id="2_4ud4i"]
+[ext_resource type="VideoStream" uid="uid://dv17h6f04dgt" path="res://ASSETS/BACKGROUND/Main-game-screen.ogv" id="2_iflol"]
+[ext_resource type="Texture2D" uid="uid://3xsnhcfdycqg" path="res://ASSETS/BUTTONS/Play.png" id="3_v2din"]
+[ext_resource type="Texture2D" uid="uid://ccouquyerd7sd" path="res://ASSETS/BUTTONS/Settings.png" id="4_68nwu"]
+[ext_resource type="AudioStream" uid="uid://dybbvxl54t5p4" path="res://ASSETS/BGM/MainMenu.mp3" id="6_68nwu"]
+[ext_resource type="Texture2D" uid="uid://bwk13y76sw0xx" path="res://ASSETS/BUTTONS/Exit game button.png" id="7_iflol"]
+
+[sub_resource type="GDScript" id="GDScript_iflol"]
+script/source = "extends Control
+
+func _ready() -> void:
+	$MainMenuBGM.process_mode = Node.PROCESS_MODE_ALWAYS
+	$MainMenuBGM
+
+func _on_play_pressed():
+	$MainMenuBGM.stop()
+	get_tree().change_scene_to_file(\"res://GAME OPEN(START).tscn\")
+
+func _on_load_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://SAVE FILES (LOAD).tscn\")
+
+func _on_settings_pressed() -> void:
+	print(\"Settings pressed\")
+	if not $SettingsPopup.has_node(\"SettingsOverlay\"):
+		var settings_scene = preload(\"res://SETTINGS.tscn\").instantiate()
+		settings_scene.name = \"SettingsOverlay\"
+		$SettingsPopup.add_child(settings_scene)
+		print(\"Settings scene added\")
+	else:
+		print(\"Settings already open\")
+
+func _on_exit_game_pressed() -> void:
+	get_tree().quit()
+"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = SubResource("GDScript_iflol")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Control"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="Control/CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -4.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("2_iflol")
+autoplay = true
+loop = true
+
+[node name="PLAY" type="TextureButton" parent="Control/CanvasLayer"]
+offset_left = 983.0
+offset_top = 312.0
+offset_right = 3031.0
+offset_bottom = 1787.0
+scale = Vector2(0.195, 0.195)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_v2din")
+
+[node name="LOAD" type="TextureButton" parent="Control/CanvasLayer"]
+offset_left = 1459.0
+offset_top = 313.0
+offset_right = 3507.0
+offset_bottom = 1788.0
+scale = Vector2(0.195, 0.195)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("2_4ud4i")
+
+[node name="SETTINGS" type="TextureButton" parent="Control/CanvasLayer"]
+offset_left = 1234.0
+offset_top = 533.0
+offset_right = 3282.0
+offset_bottom = 2008.0
+scale = Vector2(0.17, 0.17)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("4_68nwu")
+
+[node name="ExitGame" type="TextureButton" parent="Control/CanvasLayer"]
+offset_left = 1142.0
+offset_top = 681.0
+offset_right = 3190.0
+offset_bottom = 2156.0
+scale = Vector2(0.255, 0.255)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("7_iflol")
+
+[node name="MainMenuBGM" type="AudioStreamPlayer" parent="Control"]
+stream = ExtResource("6_68nwu")
+autoplay = true
+
+[node name="SettingsPopup" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="pressed" from="Control/CanvasLayer/PLAY" to="Control" method="_on_play_pressed"]
+[connection signal="pressed" from="Control/CanvasLayer/LOAD" to="Control" method="_on_load_pressed"]
+[connection signal="pressed" from="Control/CanvasLayer/SETTINGS" to="Control" method="_on_settings_pressed"]
+[connection signal="pressed" from="Control/CanvasLayer/ExitGame" to="Control" method="_on_exit_game_pressed"]
