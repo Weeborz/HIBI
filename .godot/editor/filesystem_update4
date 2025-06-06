@@ -1,0 +1,18 @@
+res://OPEN SCREEN.tscn
+res://dialogue theme/DIALOGUE.tres
+res://GAME OPEN(START).tscn
+res://SAVE FILES (LOAD).tscn
+res://SETTINGS.tscn
+res://scene_1.tscn
+res://dialogue_ui.tscn
+res://character.tscn
+res://script/SettingsInGame.tscn
+res://save_files_(load).gd
+res://script/STORY.json
+res://character.gd
+res://default_bus_layout.tres
+res://control.gd
+res://settings.gd
+res://scene_1.gd
+res://SCENE TRANSITION.tscn
+res://scene_transition.gd
